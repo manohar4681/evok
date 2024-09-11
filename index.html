@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EVOKE website</title>
+    <link rel="stylesheet" href="./stysles/nav.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"/>
+  </head>
+  <body>
+    <nav id="nav-bar">
+      <ol>
+        <li>Announcements</li>
+        <li>|</li>
+        <li>Careers</li>
+        <li>|</li>
+        <li>News & Events</li>
+        <li>|</li>
+        <li>Blog</li>
+        <li>|</li>
+        <li>Contact Us</li>
+      </ol>
+      <button>Let's Talk</button>
+    </nav>
+    <div id="sub-nav">
+      <img src="./images1/20-years-anniversary.png" alt="" />
+      <ol>
+        <li>SERVICES</li>
+        <li>INDUSTRIES</li>
+        <li>INSIGHTS</li>
+        <li>PARTNERS</li>
+        <li>SOLUTIONS</li>
+        <li>ABOUT US</li>
+      </ol>
+    </div>
+    <div id="container-mid1">
+      <div
+        id="carouselExampleAutoplaying"class="carousel slide"data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images1/slid1.png" class="d-block w-100" alt="..." />
+            <img src="./images1/slid1.1.svg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./images1/slid2.png" class="d-block w-100" alt="..." />
+            <img src="./images1/slid2.1.svg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./images1/slid3.png" class="d-block w-100" alt="..." />
+            <img src="./images1/slid3.1.svg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./images1/slid4.png" class="d-block w-100" alt="..." />
+            <img src="./images1/slid4.1.svg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./images1/slid5.png" class="d-block w-100" alt="..." />
+            <img src="./images1/slid5.1.svg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./images1/slid6.png" class="d-block w-100" alt="..." />
+            <img src="./images1/slid6.1.svg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"type="button"data-bs-target="#carouselExampleAutoplaying"data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"type="button"data-bs-target="#carouselExampleAutoplaying"data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div id="container-mid2">
+      <div class="web"><img src="./images1/web-banner.jpg" alt="" /></div>
+      <div>
+        <img src="./images1/explore.jpg" alt="" />
+        <img src="images1/work-space.jpg" alt="" />
+      </div>
+    </div>
+    <div id="sus">
+      <strong class="str">Success <strong style="color: #7672f2">Stories</strong></strong>
+      <section id="cards">
+        <div class="card" style="width: 22rem; height: 23rem">
+          <img src="./images1/success1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Provided SAP ECC Application Maintenance & Support to a Global
+              Manufactur...
+            </p>
+            <span class="share"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAoJJREFUWEftmEuIjlEYx38jWUjuGyS5LWbCAkk2KBZImI29XHJLGOWS3Elyz0ZmPys0SyVSoqyMS1Jk4RaFkkZyO/86p745c97vnJnvPV/fYp7N1NfzPs+v5/yfS9NEg1lTg/EwABR7kdwVUvxWYKYFeQJcB/4VgeUEmmCTz/OSP7CQH0NQuYAU9xEwp6AS94CF9QRaDdyI6GUxcNf3yVWhM0BbBOggcLxeQFeBDRGgC8DO3EBTgHPAqlh7A5sAgfewsp5suIl6GNhunmFwAsx7YBrQXTbQIGCj1cIYL/gtYIapwnjv92/AMuBhf7psGDAb+Ak8A35UBFkEXAFavMAvjd8e810nMBrYD8y1Po+BE8Cn/gzGLYC6ZWjFx2eBa8BJYI0X9CtwDLgM/E54tqBLkYbUsoJJsb9WnAeALykfVPMJAY01LfvOVGFIQnDpZAfwIsE3ySUEtBboiHwtDWjOSCelWghoHdAeyXIbWFIqiQ0WAloA3I8kk2gv2dnzvUywIlHrRJifkOgzIDGrohJ3zVYENNWcB3dMoomBDB+Acd7vz4Gtoe3dV8Jqq2MEsA9Ybi++V2ZA7gVu2uSHgFFeQl2Du4E3fQVx/rXsMk3ho8Bm81crxNkvQANUE3mW1Zqb1E8tsMZF0GoBcgGbTaUumkZY6mWQvrTfKmGdy/qiTi4DyCVZAZwHpic8l7b8JPP0gu5hZQIpsE4P7cAjwMgIWLBKZQM5Bh1pva5BD1DV3JW7Qi6+uvFUpELyOV0vIM2v11WuR3XiZHPc6XLMqqHK4NvsbRQqlBaz7qpelktDLtFK+ywaDbIuqxst56DlBnJJ1eJ/gLcRXQ38OyZWoMar0H992mAlD/XJkgAAAABJRU5ErkJggg=="
+                alt=""/>
+            </span>
+            <div class="para"><p>Read More</p></div>
+            <div class="arro"><h1>&rightarrow;</h1></div>
+          </div>
+        </div>
+        <div class="card" style="width: 22rem; height: 23rem">
+          <img src="./images1/success2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Automated the tedious Data Reconciliation Process for a Global
+              Manufacturer
+            </p>
+            <span class="share"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAoJJREFUWEftmEuIjlEYx38jWUjuGyS5LWbCAkk2KBZImI29XHJLGOWS3Elyz0ZmPys0SyVSoqyMS1Jk4RaFkkZyO/86p745c97vnJnvPV/fYp7N1NfzPs+v5/yfS9NEg1lTg/EwABR7kdwVUvxWYKYFeQJcB/4VgeUEmmCTz/OSP7CQH0NQuYAU9xEwp6AS94CF9QRaDdyI6GUxcNf3yVWhM0BbBOggcLxeQFeBDRGgC8DO3EBTgHPAqlh7A5sAgfewsp5suIl6GNhunmFwAsx7YBrQXTbQIGCj1cIYL/gtYIapwnjv92/AMuBhf7psGDAb+Ak8A35UBFkEXAFavMAvjd8e810nMBrYD8y1Po+BE8Cn/gzGLYC6ZWjFx2eBa8BJYI0X9CtwDLgM/E54tqBLkYbUsoJJsb9WnAeALykfVPMJAY01LfvOVGFIQnDpZAfwIsE3ySUEtBboiHwtDWjOSCelWghoHdAeyXIbWFIqiQ0WAloA3I8kk2gv2dnzvUywIlHrRJifkOgzIDGrohJ3zVYENNWcB3dMoomBDB+Acd7vz4Gtoe3dV8Jqq2MEsA9Ybi++V2ZA7gVu2uSHgFFeQl2Du4E3fQVx/rXsMk3ho8Bm81crxNkvQANUE3mW1Zqb1E8tsMZF0GoBcgGbTaUumkZY6mWQvrTfKmGdy/qiTi4DyCVZAZwHpic8l7b8JPP0gu5hZQIpsE4P7cAjwMgIWLBKZQM5Bh1pva5BD1DV3JW7Qi6+uvFUpELyOV0vIM2v11WuR3XiZHPc6XLMqqHK4NvsbRQqlBaz7qpelktDLtFK+ywaDbIuqxst56DlBnJJ1eJ/gLcRXQ38OyZWoMar0H992mAlD/XJkgAAAABJRU5ErkJggg=="
+                alt=""/>
+            </span>
+            <div class="para"><p>Read More</p></div>
+            <div class="arro"><h1>&rightarrow;</h1></div>
+          </div>
+        </div>
+        <div class="card" style="width: 22rem; height: 23rem">
+          <img src="./images1/success3.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Real-Time Data Integration for a Leading Manufacturer
+            </p>
+            <span class="share"><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAoJJREFUWEftmEuIjlEYx38jWUjuGyS5LWbCAkk2KBZImI29XHJLGOWS3Elyz0ZmPys0SyVSoqyMS1Jk4RaFkkZyO/86p745c97vnJnvPV/fYp7N1NfzPs+v5/yfS9NEg1lTg/EwABR7kdwVUvxWYKYFeQJcB/4VgeUEmmCTz/OSP7CQH0NQuYAU9xEwp6AS94CF9QRaDdyI6GUxcNf3yVWhM0BbBOggcLxeQFeBDRGgC8DO3EBTgHPAqlh7A5sAgfewsp5suIl6GNhunmFwAsx7YBrQXTbQIGCj1cIYL/gtYIapwnjv92/AMuBhf7psGDAb+Ak8A35UBFkEXAFavMAvjd8e810nMBrYD8y1Po+BE8Cn/gzGLYC6ZWjFx2eBa8BJYI0X9CtwDLgM/E54tqBLkYbUsoJJsb9WnAeALykfVPMJAY01LfvOVGFIQnDpZAfwIsE3ySUEtBboiHwtDWjOSCelWghoHdAeyXIbWFIqiQ0WAloA3I8kk2gv2dnzvUywIlHrRJifkOgzIDGrohJ3zVYENNWcB3dMoomBDB+Acd7vz4Gtoe3dV8Jqq2MEsA9Ybi++V2ZA7gVu2uSHgFFeQl2Du4E3fQVx/rXsMk3ho8Bm81crxNkvQANUE3mW1Zqb1E8tsMZF0GoBcgGbTaUumkZY6mWQvrTfKmGdy/qiTi4DyCVZAZwHpic8l7b8JPP0gu5hZQIpsE4P7cAjwMgIWLBKZQM5Bh1pva5BD1DV3JW7Qi6+uvFUpELyOV0vIM2v11WuR3XiZHPc6XLMqqHK4NvsbRQqlBaz7qpelktDLtFK+ywaDbIuqxst56DlBnJJ1eJ/gLcRXQ38OyZWoMar0H992mAlD/XJkgAAAABJRU5ErkJggg=="
+                alt=""/>
+            </span>
+            <div class="para"><p>Read More</p></div>
+            <div class="arro"><h1>&rightarrow;</h1></div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div id="container-mid3">
+      <strong class="str">Customers <strong style="color: #7672f2">Speak</strong></strong>
+      <ol class="sliding">
+        <span class="bgimg"><img src="./images1/customers-speaks-1.png" alt=""/></span>
+
+        <li>
+          <div class="card" style="width: 19rem; height: 24rem">
+            <img src="./images1/dobbleQ.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-texts">
+                Evoke's Security team did an amazing job evaluating our custom
+                ERP software. I would highly recommend everyone use Evoke's team
+                to detect, design, develop, and deploy any apps so that security
+                can be built in from the beginning and not an after-thought.
+              </p>
+              <img src="./images1/dobbleQ2.png" alt="" />
+            </div>
+            <h4>Chief Software Architect</h4>
+            <p>Global Retail Solution Provider, Minneapolis</p>
+          </div>
+        </li>
+
+        <li>
+          <div class="card" style="width: 19rem; height: 24rem">
+            <img src="./images1/dobbleQ.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-texts">
+                I would like to congratulate the Evoke team who worked on the
+                Product Attributes project on a job well done! You reached the
+                project goals in a timely manner and business is very
+                appreciative of the product you produced.
+              </p>
+              <img src="./images1/dobbleQ2.png" alt="" />
+            </div>
+            <h4>Development Manager</h4>
+            <p>Global Manufacturing Company, Pennsylvania</p>
+          </div>
+        </li>
+        <li>
+          <div class="card" style="width: 19rem; height: 24rem">
+            <img src="./images1/dobbleQ.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-texts">
+                Our team at Evoke has brought us dedicated partners that deliver
+                professional advice and solid insight while delivering
+                commitments on time and within budget with high quality. I
+                recommend Evoke to anyone who wants to have world class
+                technical capabilities.
+              </p>
+              <img src="./images1/dobbleQ2.png" alt="" />
+            </div>
+            <h4>Managing Director</h4>
+            <p>Top Digital Science Company</p>
+          </div>
+        </li>
+        <li>
+          <div class="card" style="width: 19rem; height: 24rem">
+            <img src="./images1/dobbleQ.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-texts">
+                Technology alone is useless, technology “MUST” solve business
+                problems and Evoke Technologies provides us with the right
+                business solution using Microsoft technologies. Thank you Evoke.
+              </p>
+              <img src="./images1/dobbleQ2.png" alt="" />
+            </div>
+            <h4>Program Director</h4>
+            <p>Global Payroll Company, Florida</p>
+          </div>
+        </li>
+        <li>
+          <div class="card" style="width: 19rem; height: 24rem">
+            <img src="./images1/dobbleQ.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-texts">
+                Our team at Evoke has brought us dedicated partners that deliver
+                professional advice and solid insight while delivering
+                commitments on time and within budget with high quality. I
+                recommend Evoke to anyone who wants to have world class
+                technical capabilities.
+              </p>
+              <img src="./images1/dobbleQ2.png" alt="" />
+            </div>
+            <h4>Managing Director</h4>
+            <p>Top Digital Science Company</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+    <span class="dots">
+      <div></div>
+      <div></div>
+    </span>
+    <div id="container-mid4">
+      <strong class="str">Our<strong style="color: #7672f2"> Key Differentiators</strong></strong>
+      <p>
+        Over the past two decades, we have established <br />
+        a distinctive identity that helps us to standbr <br />
+        out in the industry.
+      </p>
+      <ol class="fliping">
+        <li>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+                  <img src="./images1/tran1.png" alt="">
+                  <h4>VALUE-FOCUSSED WITH STRONG OWNERSHIP      
+            </div>
+            <div class="flip-card-back">
+                <p>
+                  We are founded as a value-focused organization and this
+                  helps us bring strong ownership to all our projects. As a
+                  solutions partner we walk the extra mile, to bring
+                  unparalleled customer delight.
+                </p>
+            </div>
+        </div>
+      </li>
+      <li>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+                  <img src="./images1/tran2.png" alt="">
+                  <h4>LEARNING <br/>ORGANIZATION</h4>
+            </div>
+            <div class="flip-card-back">
+              <p>
+                We are predominantly a Learning Organization. Our technology
+                teams have a steep learning curve which ensures that they
+                are agile, competent, and ready to handle a wide array of
+                technological challenges.
+              </p>
+            </div>
+        </div>
+      </li>
+      <li>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+                  <img src="./images1/tran3.png" alt="">
+                  <h4>EXCEPTIONAL DELIVERY <br />TRACK-RECORD</h4>
+            </div>
+            <div class="flip-card-back">
+              <p>
+                We have an enviable track-record of delivering 95% projects
+                on time that makes us a high-performance organization. Our
+                high delivery track record borrows from our strong People,
+                Process, and Technology focus.
+              </p>
+            </div>
+        </div>
+      </li>
+      <li>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+                  <img src="./images1/tran4.png" alt="">
+                  <h4>INVOLVED LEADERSHIP <br />TEAM</h4>
+            </div>
+            <div class="flip-card-back">
+              <p>
+                We have strong organizational values, due to our visionary
+                management team. Our management leaders come with rich
+                global experience, are hands-on, and involved in all aspect
+                of organizational functioning.
+              </p>
+            </div>
+        </div>
+      </li>
+      </ol>
+    </div>
+    </div>
+    <div id="container-mid5">
+      <h1>Learn how we stand out for</h1>
+      <h1>Our Delivery Excellence</h1>
+      <div class="diconb">
+        <div class="dicon">
+          <span>DOWNLOAD <span><span>VPD</span> <img src="./images1/download-icon2.png" alt=""></span></span>
+        </div>
+      </div>
+      </div>
+      <div class="world-map">
+        <strong class="str">Our Global<strong style="color: #7672f2"> Offices</strong></strong>
+        <img src="./images1/evoke-map-home.png" alt="">
+        <span class="map-point">
+          <img src="./images1/map-pointer.svg" alt="">
+          <img src="./images1/map-pointer.svg" alt="">
+          <img src="./images1/map-pointer.svg" alt="">
+          <img src="./images1/map-pointer.svg" alt="">
+          <img src="./images1/map-pointer.svg" alt="">
+          <img src="./images1/map-pointer.svg" alt="">
+        </span>
+      </div>
+      <div class="discover">
+        <h3>Discover</h3>
+        <h2>What We Offer</h2>
+        <p>We deliver exceptional technological value to our customers worldwide. <br>
+          Our solutions help organizations attain crucial business outcomes, <br>
+          realize transformative growth, and become future-ready. <br>
+          Our broad spectrum of services span 11 industries across <br>
+          8 CoEs and includes Digitization, Automation, <br>
+          AI/ML, Analytics, Data Engineering, <br>
+          and Cloud Enablement.</p>
+        <div class="diconb">
+          <div class="dicon">
+            <span style="color: black;">FACT SHEET <span><img src="./images1/download-icon2.png" alt=""></span></span>        
+          </div>
+        </div>
+        <div class="diconb">
+          <div class="dicon">
+            <span style="color: black;">BROCHURE<span><img src="./images1/download-icon2.png" alt=""></span></span>
+          </div>
+        </div>
+      </div>
+      <div class="insight">
+        <strong class="str">Technology<strong style="color: #7672f2">Insight Video</strong></strong>
+        <section class="insin">
+          <div class="card" style="width: 22rem;">
+            <img src="./images1/insight1.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Oil and Gas Industry : Digital Transformation with Evoke...</p>
+            </div>
+          </div>
+          <div class="card" style="width: 22rem;">
+            <img src="./images1/insight2.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">How Automation is Influencing the Future of Work?</p>
+            </div>
+          </div>
+          <div class="card" style="width: 22rem;">
+            <img src="./images1/insight3.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">BCDR cloud solutions by Evoke Technologies</p>
+            </div>
+          </div>
+        </section>
+        <button type="button">View More</button>
+      </div>
+      <div class="mid-color">
+        <pre>
+
+
+
+
+
+
+        </pre>
+      </div>
+    <div id="container-mid6">
+        <strong class="str">Technology <strong style="color: #7672f2"> Partners</strong></strong>
+        <ol class="logos"></ol>
+        <ol class="logos">
+          <li><img src="./images1/l1.png" alt=""></li><br>
+          <li><img src="./images1/l2.png" alt=""></li>
+          <li><img src="./images1/l3.png" alt=""></li>
+          <li><img src="./images1/l4.png" alt=""></li>
+          <li><img src="./images1/l5.png" alt=""></li>
+        </ol>
+        <ol class="logos">
+          <li><img src="./images1/l6.png" alt=""></li>
+          <li><img src="./images1/l7.png" alt=""></li>
+          <li><img src="./images1/l8.png" alt=""></li>
+          <li><img src="./images1/l9.png" alt=""></li>
+          <li><img src="./images1/l10.png" alt=""></li>
+        </ol>
+        <ol class="logos">
+          <li><img src="./images1/l11.png" alt=""></li>
+          <li><img src="./images1/l12.png" alt=""></li>
+          <li><img src="./images1/l13.png" alt=""></li>
+          <li><img src="./images1/l14.png" alt=""></li>
+          <li><img src="./images1/l15.jpg" alt=""></li>
+        </ol>
+        <ol class="logos">
+          <li><img src="./images1/l16.png" alt=""></li>
+          <li><img src="./images1/l17.png" alt=""></li>
+        </ol>
+        <div id="clr"></div>
+    </div>
+    <footer id="foot">
+      <ol>
+        <li class="frt-list">Services</li>
+        <li>Digitization</li>
+        <li>Software Development</li>
+        <li>Quality Assurance</li>
+        <li>Cloud Enablement</li>
+        <li>Automation</li>
+        <li>CRM</li>
+        <li>ERP</li>
+        <li>AI/ML, Analytics,& Data Engineering</li>
+      </ol>
+      <ol>
+        <li class="frt-list">Industries</li>
+        <li>Manufacturing</li>
+        <li>BFSI</li>
+        <li>Retail</li>
+        <li>Oil & Gas</li>
+        <li>Hospitality</li>
+        <li>Agriculture</li>
+        <li>Corporate Services</li>
+        <li>Pharma</li>
+        <li>Healthcare</li>
+        <li>Energy & Utilities</li>
+        <li>Education</li>
+      </ol>
+      <ol>
+        <li class="frt-list">Insights</li>
+        <li>Case Studies</li>
+        <li>Blog</li>
+        <li>Videos</li>
+        <li>News & Events</li>
+        <li>Press Releases</li>
+        <li>Resource Hub</li>
+      </ol>
+      <aside>
+        <h3>Ready to Grow <br> Your Business?</h3>
+        <p>We bring together our deep industry <br> knowledge and tech expertise to digitize the <br>core of enterprise systems.</p>
+        <p>To talk to a technology expert</p>
+        <button type="button">Write To Us</button>
+        <img src="./images1/MicrosoftTeams-image-45.png" alt="">
+        <h6>Mail Us</h6>
+        <p class="mail">sales@evoketechnologies.com</p>
+        <ol class="flogos">
+          <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);transform: 1;msFilter: 1px;;"><circle cx="4.983" cy="5.009" r="2.188"></circle><path d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path></svg></li>
+          <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+          </svg></li>
+          <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 250, 250, 1);transform: 1;msFilter: 1px;;"><path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"></path></svg></li>
+          <li><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+          </svg></li>
+        </ol>
+      </aside>
+    </footer>
+    <div id="last-nav">
+      <p>Terms of Use | Privacy Policy | Cookies Policy | Disclaimer | Sitemap | Modern Slavery Statement</p>
+      <p>Evoke Technologies Pvt. Ltd. © 2024 All Rights Reserved.</p>
+    </div>
+  </body>
+</html>

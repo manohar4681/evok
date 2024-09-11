@@ -1,0 +1,177 @@
+@import url(./mid1.css);
+
+@media (min-width:900px) and (max-width:1500px){
+:root {
+    --font-family1 : 'Open Sans', sans-serif;
+    --font-family2 : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family3 : SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --background-color1 :#72116f ;
+    --background-color2 : #6f42c1;
+    --background-color3 : #ff6900;
+    --background-color4 : #17a2b8;
+    --color1: #fff ;
+    --color2: #03045E ;
+    --font-size: 14px;
+    --font-weight: 500;
+    --box-shadow: 1px 1px 5px 5px rgb(172, 172, 172);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font-family1);
+}
+#nav-bar{
+    height: 50px;
+    width: 100%;
+    background-color: var(--background-color1);
+    color: var(--color1);
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+}
+#nav-bar ol{
+    list-style: none;
+    font-size: var(--font-size);
+    font-weight:var(--font-weight);
+    height: inherit;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 45%;
+}
+#nav-bar button{
+    height: 40px;
+    width: 100px;
+    border: none;
+    position: absolute;
+    top: 1%;
+    right: 5%;
+    color: var(--color1);
+    font-size: 16px;
+    background-color: var(--background-color3);
+}
+#sub-nav{
+    height: 70px;
+    position: sticky;
+    top: 8%;
+    z-index: 6;
+    background-color: #fff;
+}
+#sub-nav ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+    width: 50%;
+    position: absolute;
+    left: 40%;
+    top: 6%;
+    font-weight: 700;
+}
+#sub-nav img{
+    height: 50px;
+    position: absolute;
+    top: 9%;
+    left: 5%;
+}
+.carousel-item>img{
+    height: 400px;
+}
+.carousel-item>img+img{
+    height: 250px;
+    position: absolute;
+    top: 18%;
+    right: 25%;
+}
+.web img{
+    border: 5px solid white;
+    width: 90%;
+    margin: 5% 0 0 5%;
+    box-shadow: var(--box-shadow);
+}
+#container-mid2>div+div{
+    display: flex;
+    margin: 5% 0 0 5%;
+}
+#container-mid2>div+div img{
+    width: 46%;
+    box-shadow: var(--box-shadow);
+    border: 5px solid white;
+}
+#container-mid2>div+div>img+img{
+    margin-left: 3%;
+}
+.str{
+    position: absolute;
+    left: 38%;
+    top: 26em;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+.card img{
+    height: 200px;
+}
+#cards{
+    margin: 10% 15% 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+#cards>div+div{
+    position: absolute;
+    left: 35.5%;
+}
+#cards>div+div+div{
+    position: absolute;
+    left: 66%;
+}
+.card-body p{
+    color: var(--color2);
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 1.3em;
+    margin-left: 5%;
+}
+.card span{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 85%;
+    left:10%;
+    border-radius: 100%;
+    background-color: lightgray;
+}
+.share>img{
+    height: 20px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.para p{
+    font-size: 16px;
+    color: grey;
+    font-weight: 500;
+    position: absolute;
+    top: 88%;
+    left: 55%;
+}
+.arro{
+    height: 40px;
+    width: 40px;
+    margin: 15% 0 0 88%; 
+    border-radius: 100%;
+    background-color: var(--background-color3);
+    color: var(--color1);
+}
+.arro h1{
+    position: absolute;
+    top: 83%;
+}
+.card{
+    box-shadow: 0px 5px 5px 0px gray;
+}
+}

@@ -1,0 +1,86 @@
+@import url(./mid2.css);
+
+
+#container-mid3>strong{
+    margin-top: 42%;   
+}
+.sliding>img{
+    height: 500px;
+    width: 100%;
+    margin-top: 13%;
+}
+.sliding div img{
+    height: 25px;
+    width: 30px;
+}
+.sliding div>img{
+    position: relative;
+    left: 45%;
+    top: 5%;
+}
+.sliding{
+    display: flex;
+    list-style: none;
+    overflow: hidden;
+}
+.sliding li{
+    margin-left: 6%;
+    /* transform: translateX(-750px); */
+    /* transition-duration: 6s; */
+}
+.bgimg img{
+    height: 530px;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+}
+#container-mid3 ol{
+    margin-top: 13%;
+}
+#container-mid3 ol li{
+    margin-top: 5%;
+}
+.card-texts{
+    font-style: italic;
+    color: rgb(98, 98, 98) !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    text-align: center !important;
+    line-height: 1.1em !important; 
+}
+.card h4{
+    color: #ff6900;
+    font-size: 18px;
+    position: absolute;
+    top: 70%;
+    left: 18%;
+}
+.card>p{
+    font-size: 16px;
+    font-style: italic;
+    padding-left: 8%;
+    position: absolute;
+    top: 77%;
+    text-align: center;
+}
+.dots{
+    width: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.dots div{
+    border: 2px sol/id;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+}
+.dots>div{
+    position: absolute;
+    left: 50%;
+    background-color: rgb(52, 52, 255);
+}
+.dots>div+div{
+    position: absolute;
+    left: 52%;
+    background-color: #ff6900;
+}

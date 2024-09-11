@@ -1,0 +1,97 @@
+#foot{
+    height: 80vh;
+    background-color:var(--background-color1);
+    color: var(--color1);
+    display: flex;
+}
+#foot ol{
+    font-size: 14px;
+    color: rgb(191, 191, 191);
+    line-height: 2em;
+    list-style: none;
+}
+#foot>ol{
+    margin: 6%  0  0  2%;
+}
+#foot>ol+ol{
+    margin: 6% 0  0 5%;
+
+}
+#foot ol:hover{
+    color: #ff6900;
+}
+#foot>ol+ol+ol{
+    margin: 6% 0  0 10%;
+
+}
+.frt-list{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    position: sticky;
+    text-transform: uppercase;
+}
+aside button{
+    height: 40px;
+    width: 210px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    font-weight: 500;
+    color: rgb(79, 79, 79);
+}
+aside>img{
+    height: 35px;
+    margin-top: 10%;
+    margin-right: 40%;
+}
+.mail{
+    position: absolute;
+    left: 74.5%;
+    top: 399rem;
+}
+aside h6{
+    position: absolute;
+    left: 74.5%;
+    top: 397.5rem;
+    font-weight: normal;
+}
+.flogos{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-right: 50%;
+    margin-top: 8%;
+}
+.flogos li{
+    position: relative;
+    right: 23%;
+}
+.flogos li svg{
+    fill: #fff;
+
+}
+#last-nav{
+    height: 45px;
+    width: 100%;
+    background-color: #191919;
+    color: rgb(191, 191, 191);
+    font-weight: 600;
+    font-size: 12px;
+    word-spacing: 0.3em;
+}
+#last-nav>p{
+    position: absolute;
+    margin : 1% 0 0 5%;
+}
+#last-nav>p+p{
+    position: absolute;
+    margin: 1% 0 0 68%;
+}
+aside{
+    margin: 6% 0% 0 10%;
+}
+#clr{
+    background-color: #f1f1f1;
+    height: 100px;
+}

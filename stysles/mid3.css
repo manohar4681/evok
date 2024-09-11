@@ -1,0 +1,111 @@
+@import url(./foot.css);
+
+.discover{
+    margin-top: 2%;
+    background-image: url(../images1/discover.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;  
+    height: 510px;  
+    color: var(--color1);
+}
+.discover h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    top: 5%;
+    left: 33%;
+}
+.discover h2{
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 3%;
+    position: absolute;
+    left: 30%;
+}
+.discover p{
+    font-size: 20px;
+    margin-top: 6%;
+    position: absolute;
+    left: 12%;
+    text-align: center;
+}
+.discover>div{
+    margin-top: 337%;
+    position: absolute;
+    left: 18%;
+}
+.discover div+div{
+    /* margin-top: 337%; */
+    position: absolute;
+    left: 40%;
+}
+.insight{
+    background-color: #f1f1f1;
+}
+.insight strong{
+    margin-top: 290%;
+    position: absolutele;
+    left: 34%;
+    letter-spacing: -0.05em;
+}
+.insin div img{
+    width: 300px;
+    margin-top: 8%;
+    margin-left: 8%;
+    border-radius: 0.1px;
+}
+.insin{
+    display: flex;
+    justify-content: space-around;
+    margin: 15% 3% 0 3%;
+}
+.insight button{
+    margin: 7% 0 0 45%;
+    height: 40px;
+    width: 150px;
+    border-radius: 2px;
+    color: white;
+    background-color: #03045E;
+    border:none;
+}
+.mid-color{
+    background-color: #f1f1f1;
+}
+#container-mid6 strong{
+    margin-top: 342%;
+    position: absolutele;
+    left: 34%;
+    letter-spacing: -0.05em;
+    background-color: #f1f1f1;
+}
+#container-mid6{
+    background-color: #f1f1f1;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.1% 2% 0 3%;
+    list-style: none;
+}
+.logos li{
+    height: 130px;
+    width: 220px;
+    background-color: #fff;
+}
+.logos li img{
+    height: 220px;
+    width: 170px;
+    padding-left: 15%;
+    padding-bottom: 50%;
+}
+#container-mid6 ol+ol+ol{
+    margin-top: 1%;
+}
+#container-mid6 ol+ol+ol+ol+ol>li+li{
+    position: absolute;
+    left: 24.3%;
+}
+
